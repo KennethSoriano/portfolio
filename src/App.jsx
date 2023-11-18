@@ -7,11 +7,11 @@ const App = () => {
   return (
     <main className="bg-slate-300/20">
       <Router>
+        <Navbar />
         <Routes>
-          <Navbar />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<projects />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </Router>
     </main>
