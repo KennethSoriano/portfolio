@@ -11,14 +11,19 @@ const HomeInfo = ({ currentStage }) => {
         👋
         <br />
         A Software Engineer from the San Francisco Bay Area
+        <br />
+        Please explore my island through your cursor or arrow keys!
       </h1>
     );
 
   if (currentStage === 2) {
     return (
       <div className='info-box'>
+        <p className='font-medium sm:text-xl text-center'>
+          Education and Work Experience
+        </p>
         <Link to='/about' className='neo-brutalism-white neo-btn'>
-            Education and Work Experience
+            Learn More
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
