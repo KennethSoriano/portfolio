@@ -20,7 +20,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Education and Work Experience
+          Skills and Work Experience
         </p>
         <Link to='/about' className='neo-brutalism-white neo-btn'>
             Learn More
@@ -34,7 +34,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+          Constantly learning and doing new projects. <br /> Curious about project history?
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>

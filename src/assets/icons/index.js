@@ -22,6 +22,16 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import motion from './motion.svg'
+import aiSummarizer from './aiSummarizer.png'
+import promptopia from './promptopia.png'
+import bankApp from './bankApp.png'
+import snake from './snake.png'
+import gpt3 from './gpt3.png'
+import fitnessApp from './fitnessApp.png'
+import favoritePlaces from './favoritePlaces.jpg'
+import microsoft from './microsoft.png'
+import google from './google.png'
+import chatGPT from './chatGPT.png'
 
 export {
     css,
@@ -47,5 +57,15 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    aiSummarizer,
+    promptopia,
+    bankApp,
+    snake,
+    gpt3,
+    fitnessApp,
+    favoritePlaces,
+    microsoft,
+    google,
+    chatGPT
 }

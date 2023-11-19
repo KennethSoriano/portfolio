@@ -6,7 +6,6 @@ import {
     contact,
     css,
     express,
-    git,
     github,
     html,
     javascript,
@@ -18,7 +17,17 @@ import {
     redux,
     snapgram,
     tailwindcss,
-    typescript
+    typescript,
+    aiSummarizer,
+    promptopia,
+    bankApp,
+    snake,
+    gpt3,
+    fitnessApp,
+    favoritePlaces,
+    microsoft,
+    google,
+    chatGPT
 } from "../assets/icons";
 
 export const skills = [
@@ -51,10 +60,6 @@ export const skills = [
         name: "Express",
     },
     {
-        imageUrl: git,
-        name: "Git",
-    },
-    {
         imageUrl: github,
         name: "GitHub",
     },
@@ -85,7 +90,20 @@ export const skills = [
     {
         imageUrl: aws,
         name: "AWS",
-    }
+    },
+    {
+        imageUrl: microsoft,
+        name: "Microsoft Office",
+    },
+    {
+        imageUrl: google,
+        name: "Google Workspace",
+    },
+    {
+        imageUrl: chatGPT,
+        name: "ChatGPT",
+    },
+
 ];
 
 export const experiences = [
@@ -167,11 +185,68 @@ export const projects = [
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-        code: ''
+        name: 'Snapgram',
+        description: 'Full stack social media app that includes features such as posting, liking, editing, deleting, and saving images to a public platform, infinite scrolling, signing up and signing in, smooth navigation, and beautiful styling.',
+        link: 'https://snapgramapp.netlify.app',
+        code: 'https://github.com/KennethSoriano/snapgram'
     },
+    {
+        iconUrl: promptopia,
+        theme: 'btn-back-pink',
+        name: 'Promptopia',
+        description: 'Full stack application that allows users to create, read, update, and delete prompts on a public framework.',
+        link: 'https://article-ai-summarizer-14017.netlify.app/',
+        code: 'https://github.com/KennethSoriano/ai_prompts'
+    },
+    {
+        iconUrl: aiSummarizer,
+        theme: 'btn-back-pink',
+        name: 'Article Summarizer',
+        description: 'AI-powered web app that uses an API to generate article summaries from inputted URLs.',
+        link: 'https://promptopia-8h529e0xy-kenneths-projects-a82ee88f.vercel.app/',
+        code: 'https://github.com/KennethSoriano/ai_summarizer'
+    },
+    {
+        iconUrl: fitnessApp,
+        theme: 'btn-back-pink',
+        name: 'Fitness App',
+        description: 'AI-powered web app that uses an API to generate article summaries from inputted URLs.',
+        link: 'https://exercisessearchapp.netlify.app/',
+        code: 'https://github.com/KennethSoriano/fitness_app'
+    },
+    {
+        iconUrl: snake,
+        theme: 'btn-back-pink',
+        name: 'Snake',
+        description: 'A simulation of the classic mobile game Snake.',
+        link: 'https://kss14.itch.io/snake',
+        code: 'https://github.com/KennethSoriano/snake'
+    },
+    {
+        iconUrl: favoritePlaces,
+        theme: 'btn-back-pink',
+        name: 'Favorite Places',
+        description: 'React native mobile device that allows users to search, save, and take pictures of their favorite locations through integrating multiple APIs, including Google Maps API for location services and device camera functionality.',       
+        link: 'https://github.com/KennethSoriano/FavoriteLocations',
+        code: 'https://github.com/KennethSoriano/FavoriteLocations'
+    },
+    {
+        iconUrl: bankApp,
+        theme: 'btn-back-pink',
+        name: 'Modern Bank App',
+        description: 'Front-end react.js web application with UI/UX that showcases the unique qualities of a bank in a modern way.',
+        link: 'https://modern-bank-app-14017.netlify.app/#product',
+        code: 'https://github.com/KennethSoriano/modern_bank_app'
+    },
+    {
+        iconUrl: gpt3,
+        theme: 'btn-back-pink',
+        name: 'GPT-3',
+        description: 'Front-end React.js web application with UI/UX that showcases the uses and potentials of GPT3.',
+        link: 'https://gpt3project.com/',
+        code: 'https://github.com/KennethSoriano/gpt3'
+    },
+
 
 
 ];
