@@ -6,13 +6,13 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Hi, I'm
+        Greetings! my name is
         <span className='font-semibold mx-2 text-white'>Kenneth</span>
         👋
         <br />
-        A Software Engineer from the San Francisco Bay Area
+        I'm a Software Engineer from the San Francisco Bay Area.
         <br />
-        Please explore my island through your cursor or arrow keys!
+        Please explore my island using your cursor or arrow keys!
       </h1>
     );
 
@@ -20,7 +20,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Skills and Work Experience
+          About me, Skills, and Work Experience
         </p>
         <Link to='/about' className='neo-brutalism-white neo-btn'>
             Learn More
@@ -34,7 +34,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Constantly learning and doing new projects. <br /> Curious about project history?
+          I'm constantly learning and working on new projects. <br /> Curious about my project history?
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
@@ -49,7 +49,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
+        Need a project done or looking for help? <br/> I'm just a few keystrokes away
       </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>

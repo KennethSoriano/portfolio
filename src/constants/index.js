@@ -27,7 +27,8 @@ import {
     favoritePlaces,
     microsoft,
     google,
-    chatGPT
+    chatGPT,
+    captions
 } from "../assets/icons";
 
 export const skills = [
@@ -183,6 +184,14 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: captions,
+        theme: 'btn-back-pink',
+        name: 'Captions Generator',
+        description: 'Full stack captions generator application that allows users to upload a video to have it transcribed and have captions applied to it.',
+        link: 'https://captions-generator-git-main-kenneths-projects-a82ee88f.vercel.app/',
+        code: 'https://github.com/KennethSoriano/caption_generator'
+    },
+    {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Snapgram',
@@ -195,7 +204,7 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'Promptopia',
         description: 'Full stack application that allows users to create, read, update, and delete prompts on a public framework.',
-        link: 'https://article-ai-summarizer-14017.netlify.app/',
+        link: 'https://promptopia-8h529e0xy-kenneths-projects-a82ee88f.vercel.app/',
         code: 'https://github.com/KennethSoriano/ai_prompts'
     },
     {
@@ -203,14 +212,14 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'Article Summarizer',
         description: 'AI-powered web app that uses an API to generate article summaries from inputted URLs.',
-        link: 'https://promptopia-8h529e0xy-kenneths-projects-a82ee88f.vercel.app/',
+        link: 'https://article-ai-summarizer-14017.netlify.app/',
         code: 'https://github.com/KennethSoriano/ai_summarizer'
     },
     {
         iconUrl: fitnessApp,
         theme: 'btn-back-pink',
         name: 'Fitness App',
-        description: 'AI-powered web app that uses an API to generate article summaries from inputted URLs.',
+        description: 'Fitness app that uses an API that allows users to select or search workouts for certain body parts.',
         link: 'https://exercisessearchapp.netlify.app/',
         code: 'https://github.com/KennethSoriano/fitness_app'
     },
@@ -234,7 +243,7 @@ export const projects = [
         iconUrl: bankApp,
         theme: 'btn-back-pink',
         name: 'Modern Bank App',
-        description: 'Front-end react.js web application with UI/UX that showcases the unique qualities of a bank in a modern way.',
+        description: 'Front-end React.js web application with UI/UX that showcases the unique qualities of a bank in a modern way.',
         link: 'https://modern-bank-app-14017.netlify.app/#product',
         code: 'https://github.com/KennethSoriano/modern_bank_app'
     },

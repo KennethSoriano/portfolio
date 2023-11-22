@@ -32,6 +32,7 @@ import favoritePlaces from './favoritePlaces.jpg'
 import microsoft from './microsoft.png'
 import google from './google.png'
 import chatGPT from './chatGPT.png'
+import captions from './captions.png' 
 
 export {
     css,
@@ -67,5 +68,6 @@ export {
     favoritePlaces,
     microsoft,
     google,
-    chatGPT
+    chatGPT,
+    captions
 }
