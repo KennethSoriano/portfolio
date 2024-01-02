@@ -28,7 +28,8 @@ import {
     microsoft,
     google,
     chatGPT,
-    captions
+    captions,
+    evently
 } from "../assets/icons";
 
 export const skills = [
@@ -183,6 +184,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: evently,
+        theme: 'btn-back-pink',
+        name: 'Events',
+        description: 'Full stack platform for managing events that includes features such as: users ability to create, read, update, and delete events, search bar, event category selection, profile creation, authorization, and modification,  payment processing',
+        link: 'https://events-app-rust-five.vercel.app/',
+        code: 'https://github.com/KennethSoriano/events_app'
+    },
     {
         iconUrl: captions,
         theme: 'btn-back-pink',

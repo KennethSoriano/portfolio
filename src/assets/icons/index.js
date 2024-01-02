@@ -33,6 +33,7 @@ import microsoft from './microsoft.png'
 import google from './google.png'
 import chatGPT from './chatGPT.png'
 import captions from './captions.png' 
+import evently from './evently.png'
 
 export {
     css,
@@ -69,5 +70,6 @@ export {
     microsoft,
     google,
     chatGPT,
-    captions
+    captions,
+    evently
 }
